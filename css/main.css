@@ -29,14 +29,23 @@ img {
 
 .main-container {
   position: fixed;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.title-container {
+  text-align: center;
 }
 
 div[id*='chart'] {
   width: 300px;
   height: 300px;
+}
+
+h1 {
+  display: inline;
+  margin-right: 16px;
 }
 
 
