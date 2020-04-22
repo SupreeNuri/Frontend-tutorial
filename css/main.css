@@ -34,5 +34,10 @@ img {
   transform: translate(-50%, -50%);
 }
 
+div[id*='chart'] {
+  width: 300px;
+  height: 300px;
+}
+
 
 
