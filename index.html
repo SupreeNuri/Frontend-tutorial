@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Charts</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -16,6 +16,11 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript" src="js/charts/scatter-chart.js"></script>
+  <script type="text/javascript" src="js/charts/combo-chart.js"></script>
+  <script type="text/javascript" src="js/charts/area-chart.js"></script>
+
   <meta name="theme-color" content="#fafafa">
 </head>
 
@@ -24,14 +29,14 @@
 <div class="main-container">
   <div class="container">
     <div class="row">
-      <div class="col-sm border border-primary">
-        One of three columns
+      <div class="col-sm border border-primary d-flex justify-content-center">
+        <div id="area_chart" style="width: 300px; height: 300px;"></div>
       </div>
       <div class="col-sm border border-secondary">
-        One of three columns
+        <div id="chart_div" style="width: 300px; height: 300px;"></div>
       </div>
-      <div class="col-sm border border-success">
-        One of three columns
+      <div class="col-sm border border-success d-flex justify-content-center">
+        <div id="combo_chart" style="width: 300px; height: 300px;"></div>
       </div>
     </div>
   </div>
@@ -46,7 +51,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-
 </body>
 
 </html>
